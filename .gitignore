@@ -1,0 +1,20 @@
+# Python bytecode (MUST IGNORE)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment (NEVER push this to Git)
+venv/
+.venv/
+env/
+
+# Environment Secrets (CRITICAL: Do not leak your API keys)
+.env
+
+# Azure App Service logs/config
+.azure/
+hostingstart.html
+
+# Playwright/Crawl4AI local browser cache
+.crawl4ai/
+ms-playwright/
